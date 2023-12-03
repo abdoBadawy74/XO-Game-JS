@@ -1,0 +1,31 @@
+.game {
+  width:400px;
+  height: 400px;
+  text-align: center;
+  font-family: system-ui;
+  color: #fff;
+  margin: auto;
+  font-weight: 500px;
+}
+.title {
+  background-color: #053176;
+  padding: 5px 0;
+  margin: 5px 0;
+  font-size: 24px;
+}
+span {
+  color: #ffc60a;
+}
+.square {
+  width: 125px;
+  height: 125px;
+  background-color: #053176;
+  float: left;
+  margin: 4px;
+  line-height: 125px;
+  font-size: 50px;
+}
+.square:hover {
+  background-color: #43538f;
+  cursor: pointer;
+}
